@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deva'z Decor Service and DJ</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:black url('lgt.jpeg') no-repeat center;
+    background-size:cover;
+    color:white;
+    text-align:center;
+}
+
+/* NAVBAR */
+.navbar{
+    background:#222;
+    padding:15px;
+    position:sticky;
+    top:0;
+}
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+.navbar a:hover{ color:gold; }
+
+/* SECTIONS */
+section{ padding:50px 20px; }
+
+/* HERO */
+.hero{
+    background:black;
+    padding:40px 0;
+}
+
+/* HERO TITLE ANIMATION */
+.hero h1{
+    display:inline-block;
+    animation: slide 6s infinite alternate;
+}
+@keyframes slide{
+    0% {transform: translateX(-20px);}
+    50% {transform: translateX(20px);}
+    100% {transform: translateX(-20px);}
+}
+
+/* HOME BOX */
+.box{
+    background:rgba(0,0,0,0.75);
+    width:85%;
+    margin:auto;
+    padding:25px;
+    border-radius:10px;
+}
+
+/* PRICING */
+.price-box{
+    display:inline-block;
+    width:250px;
+    margin:15px;
+    padding:20px;
+    border:1px solid gold;
+    border-radius:10px;
+}
+
+/* GALLERY */
+.gallery img{
+    width:280px;
+    height:180px;
+    margin:10px;
+    border-radius:8px;
+    transition: transform 0.3s;
+    cursor:pointer;
+}
+.gallery img:hover{
+    transform: scale(1.2);
+}
+
+/* FORM */
+input, select, textarea{
+    width:80%;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    border:none;
+}
+
+/* FOOTER */
+footer{
+    background:#111;
+    padding:15px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero" id="home">
+<img src="logo.jpeg" width="100" height="100" style="vertical-align:middle;margin-right:15px;">
+<h1>Deva'z Decor Service and DJ</h1>
+</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#pricing">Packages</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+<a href="#bookings">Bookings</a>
+</div>
+
+<!-- HOME -->
+<section>
+<div class="box">
+<h2>Welcome to Deva'z Decor Service</h2>
+<p>We specialize in <b>Decoration, DJ, Lighting & Catering</b>.</p>
+<p>Making weddings, parties & events memorable across Maharashtra.</p>
+<h3>Why Choose Us?</h3>
+<p>✔ Experienced Team</p>
+<p>✔ Affordable Packages</p>
+<p>✔ On-Time Professional Service</p>
+<p>✔ One-Stop Event Solution</p>
+<p><b>Serving across Maharashtra</b></p>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<div class="box">
+<h2>About Us</h2>
+<p>
+<b>Deva'z Decor Service</b> provides high-quality decoration, DJ, lighting, and catering
+services for weddings, birthdays and corporate events.
+</p>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<div class="box">
+<h2>Our Services</h2>
+<p>✔ Wedding Decoration</p>
+<p>✔ Birthday & Party Decoration</p>
+<p>✔ Stage & Flower Decoration</p>
+<p>✔ DJ & Sound System</p>
+<p>✔ Lighting & Special Effects</p>
+
+<h3>Catering Services</h3>
+<p>✔ Veg & Non-Veg Catering</p>
+<p>✔ Wedding & Party Menu</p>
+</div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+<div class="box">
+<h2>Our Packages</h2>
+<div class="price-box">
+<h3>Silver</h3>
+<p>Basic Decoration</p>
+<p>DJ Setup</p>
+<p><b>₹25,000</b></p>
+</div>
+<div class="price-box">
+<h3>Gold</h3>
+<p>Premium Decoration</p>
+<p>DJ + Lighting</p>
+<p><b>₹45,000</b></p>
+</div>
+<div class="price-box">
+<h3>Platinum</h3>
+<p>Luxury Decoration</p>
+<p>DJ + Lighting + Catering</p>
+<p><b>₹75,000</b></p>
+</div>
+</div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+<h2>Event Gallery</h2>
+<p><b>Some moments from our recent events</b></p>
+
+<img src="dj.jpeg" alt="DJ Setup">
+<img src="dd7.jpeg" alt="Decoration">
+<img src="kk.jpeg" alt="Stage Decor">
+<img src="gg.jpeg" alt="Wedding Decor">
+<img src="gg1.jpeg" alt="Wedding Decor">
+<img src="gg3.jpeg" alt="Lighting Setup">
+<img src="gg4.jpeg" alt="Stage Lighting">
+<img src="bb1.jpeg" alt="Birthday Decor">
+<img src="bb2.jpeg" alt="Birthday Party">
+<img src="kk1.jpeg" alt="Event Decoration">
+<img src="bb5.jpeg" alt="Decoration">
+<img src="bb6.jpeg" alt="Event Setup">
+<img src="bb7.jpeg" alt="Party Decor">
+<img src="kk3.jpeg" alt="Stage Decoration">
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+<div class="box" style="max-width:600px; margin:auto;">
+<h2>Contact Us</h2>
+
+<p><b>Owner:</b> Mr. Rushikesh Kadam</p>
+<p><b>Phone:</b> +91-9689424494</p>
+<p><b>Email:</b> info@devazdecor.com</p>
+<p><b>Location:</b> Maharashtra, India</p>
+
+<p style="margin-top:15px;">
+<a href="https://wa.me/919689424494" target="_blank" style="color:white;">📞 Chat on WhatsApp</a> | 
+<a href="https://www.instagram.com/devaz_decor" target="_blank" style="color:white;">📸 Instagram</a>
+</p>
+</div>
+</section>
+
+<!-- ================= BOOKING ================= -->
+<section id="bookings">
+<div class="box" style="max-width:600px; margin:auto;">
+<h2>Book Your Event</h2>
+
+<form style="text-align:left;">
+  <label for="name">Full Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
+
+  <label for="phone">Phone Number:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required><br>
+
+  <label for="event">Event Type:</label><br>
+  <select id="event" name="event" required>
+    <option value="wedding">Wedding</option>
+    <option value="birthday">Birthday</option>
+    <option value="party">Party</option>
+    <option value="other">Other</option>
+  </select><br>
+
+  <label for="message">Message / Details:</label><br>
+  <textarea id="message" name="message" placeholder="Write your message" rows="4" required></textarea><br>
+
+  <input type="submit" value="Submit" style="background:gold; color:black; font-weight:bold; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">
+</form>
+</div>
+</section>
+
+
+
+
+<!-- FOOTER -->
+<footer>
+© 2025 Deva'z Decor Service and DJ | All Rights Reserved
+</footer>
+
+</body>
+</html>
